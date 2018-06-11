@@ -19,7 +19,9 @@ public class UserCommandToUser implements Converter<UserCommand, User> {
         user.setId(source.getId());
         user.setName(source.getName());
         user.setLastName(source.getLastName());
-
+        user.setImageUrl(source.getImageUrl());
+        user.setGender(source.getGender());
+        user.setLanguage(source.getLanguage());
         return user;
     }
 }

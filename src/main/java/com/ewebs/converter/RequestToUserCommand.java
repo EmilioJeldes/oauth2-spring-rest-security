@@ -23,6 +23,9 @@ public class RequestToUserCommand implements Converter<Principal, UserCommand> {
         userCommand.setName((String) details.get("given_name"));
         userCommand.setLastName((String) details.get("family_name"));
         userCommand.setEmail((String) details.get("email"));
+        userCommand.setImageUrl((String) details.get("picture"));
+        userCommand.setGender((String) details.get("gender"));
+        userCommand.setLanguage((String) details.get("locale"));
         userCommand.setId(source.getName());
 
         return userCommand;

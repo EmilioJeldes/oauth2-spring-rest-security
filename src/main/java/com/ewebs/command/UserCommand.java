@@ -15,4 +15,7 @@ public class UserCommand {
     private String email;
     private String name;
     private String lastName;
+    private String imageUrl;
+    private String gender;
+    private String language;
 }
