@@ -1,2 +1,2 @@
-# react-spring-app
-First app combining spring boot rest backend with a react js front end
+# Oauth2-spring-rest-security
+Google Oauth2 with spring-rest and secured resources with spring-security
